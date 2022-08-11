@@ -49,8 +49,8 @@ h1{
 }
 @media (min-width: 768px) {
    h1{
-    margin-top: 2.4rem ;
-    margin-bottom: .2;  
+    margin-top: 1.5rem ;
+    
    }
 }
 h2{
@@ -75,9 +75,9 @@ h2{
 }
 @media (min-width: 768px) {
     .card{
-        display: block;
-        justify-content: center;
-        width:41rem;   
+        display:grid;
+        grid-template-rows: 1fr 2fr;
+        width: 41rem;     
     }
    
 }
@@ -183,3 +183,10 @@ h2{
     color: var(--DarkBlue);
 }
 
+.footer{
+    font-family: var(--primaryFont);
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--DesaturatedBlue);
+    text-align: right;
+}
