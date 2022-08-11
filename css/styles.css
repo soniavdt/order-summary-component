@@ -161,8 +161,12 @@ h2{
 .payment{
     background-color: var(--Brightblue);
     padding: 1.5rem;
-    border-radius: 1rem;
-    
+    border-radius: 1rem;  
+}
+@media (min-width: 768px) {
+   .payment{
+    margin-top: 3rem;
+   }
 }
 .payment:hover{
     background-color: var(--hover);
@@ -173,7 +177,7 @@ h2{
 }
 @media (min-width: 768px) {
    .cancel{
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
     padding-top: 1rem;
    } 
 }
@@ -188,5 +192,5 @@ h2{
     font-size: 1.1rem;
     font-weight: 500;
     color: var(--DesaturatedBlue);
-    text-align: center;
+    text-align: right;
 }
