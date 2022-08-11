@@ -77,7 +77,7 @@ h2{
     .card{
         display:grid;
         grid-template-rows: 1fr 2fr;
-        width: 41rem;     
+        width: 45rem;     
     }
    
 }
